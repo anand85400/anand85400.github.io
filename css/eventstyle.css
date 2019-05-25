@@ -1,0 +1,452 @@
+@import "navbarstyle.css";
+@import "footerstyle.css";
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+a {
+    text-decoration: none !important;
+    color: #fff !important;
+}
+  html
+  {
+    overflow-x: hidden;
+    scroll-behavior:smooth;
+  }
+  body
+  {
+      margin: 0;
+      padding: 0;
+
+      background-image: url("../res/events/black.jpg");
+      /* background: #f4f4f4; */
+      font-size: 14px;
+      overflow-x: hidden;
+      width: 100%;
+
+  }
+  header {
+    z-index: 2 !important;
+    margin-bottom: 3rem;
+  }
+
+  /* .timeline
+  {
+         position: relative;
+         margin: 20px auto;
+         padding: 40px 20px;
+         box-sizing: border-box;
+         width: 1100px;
+  }
+  .timeline:before
+  {
+      content: '';
+      position: absolute;
+      left: 50%;
+      width: 2px;
+      height: 98%;
+      background: #c5c5c5;
+
+  }
+  .timeline ul
+  {
+      margin: 0px;
+      padding: 0px;
+  }
+  .timeline ul li
+  {
+      list-style: none;
+      position: relative;
+      padding: 20px 0px;
+      box-sizing: border-box;
+
+      width: 50%;
+  }
+
+  .timeline ul li:nth-child(odd)
+  {
+      float: left;
+      text-align: right;
+      clear: both;
+      padding-right: 40px;
+
+  }
+
+  .timeline ul li:nth-child(even)
+  {
+      float: right;
+      text-align: left;
+      clear: both;
+      padding-left: 40px;
+  }
+
+  .content
+  {
+      padding-bottom: 20px;
+      font-family: 'Quicksand', serif;
+  }
+
+  .timeline ul li:nth-child(odd):before
+  {
+      content: '';
+      position: absolute;
+      top: 47px;
+      right: -5.5px;
+      width: 10px;
+      height: 10px;
+      background: rgba(233,33,99,1);
+      border-radius: 50%;
+      box-shadow: 0 0 0 3px rgba(233,33,99,0.2);
+  }
+
+
+  .timeline ul li:nth-child(even):before
+  {
+      content: '';
+      position: absolute;
+      top: 47px;
+      left: -4px;
+      width: 10px;
+      height: 10px;
+      background: rgba(233,33,99,1);
+      border-radius: 50%;
+      box-shadow: 0 0 0 3px rgba(233,33,99,0.2);
+  } */
+/*
+  .timeline ul li
+  {
+    list-style: none;
+  }
+  .timeline ul li h3
+  {
+      margin: 0;
+      padding: 0;
+      color:  #004080;
+      font-family: 'Roboto Slab', serif;
+
+      font-weight: bold;
+      font-size: 3rem;
+  }
+
+  .timeline ul li p
+  {
+      margin: 10px 0 0;
+      padding: 0;
+      font-family: 'Quicksand', serif;
+
+  } */
+
+
+  /* .box
+  {
+      padding-top: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+      box-sizing: border-box;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 5px 15px rgba(0,0,0,.5);
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+
+
+
+  }
+  .box-left::after
+  {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #fff;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    top: 5%;
+    left: 99.5%;
+  }
+  .box-right::after
+  {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #fff;
+    position: absolute;
+    top: 5%;
+    right: 99.5%;
+  }
+  .box:hover
+  {
+      box-shadow: 0 15px 30px rgba(255, 204, 255,.5);
+  } */
+
+  .box .content h3
+  {
+    padding-top: 0px;
+    color:  #f44336;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 16px;
+
+  }
+  .box .imgBx img{
+      max-width: 100%;
+      height: auto;
+      box-sizing: border-box;
+      border-radius: 8px;
+  }
+
+  .box .content
+  {
+      padding-left: 5px;
+
+  }
+  .box .content p
+  {
+      margin: 0;
+      padding: 0px 0 0 ;
+      text-align: justify;
+      text-justify: inherit;
+      font-family: 'Quicksand', serif;
+  }
+  .upcoming-event {
+    margin-top: 30rem;
+    margin-bottom: 5rem;
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 1 !important;
+  }
+
+  .upcoming-event .event-header {
+    position: relative;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 7rem;
+  }
+
+  .upcoming-event .event-desc {
+    font-family: 'Stylish', sans-serif;
+    font-size: 4rem;
+    color: #f4eb66;
+  }
+
+  .upcoming-event img {
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, 0.5);
+    margin: 6rem auto;
+    overflow: hidden;
+    width: 96%;
+    height: 96%;
+  }
+  .past-events {
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: 1 !important;
+  }
+
+  .past-events .event-header {
+    position: relative;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 7rem;
+  }
+
+
+
+  .swiper-container {
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 0px;
+    }
+    .swiper-slide {
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: auto;
+      background: #fff;
+      padding: 5px;
+      border-radius: 8px;
+
+    }
+
+
+@media(max-width:1100px)
+{
+	.timeline{
+		width:100%
+	}
+}
+@media(max-width: 920px)
+{
+  body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .upcoming-event {
+    margin-top: 70px;
+  }
+
+  .upcoming-event .event-header {
+    font-size: 4.8rem;
+  }
+
+  .upcoming-event .event-desc {
+    font-size: 2.7rem;
+    color: #f4eb66;
+  }
+
+  .upcoming-event img {
+    margin: 4rem auto;
+  }
+  .past-events .event-header{
+    font-size: 4.8rem;
+  }
+}
+/* @media(max-width:920px)
+{
+  body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .timeline
+  {
+    width:100%;
+    margin: 5px;
+    padding-bottom: 0px;
+  }
+  .timeline::before
+  {
+    left:2px;
+  }
+  .timeline ul li
+  {
+    width: 100%;
+  }
+  .timeline ul li:nth-child(odd),
+  .timeline ul li:nth-child(even)
+  {
+      text-align: left;
+      padding-left: 30px;
+      padding-bottom: -20px;
+      padding-right: 30px;
+  }
+  .timeline ul li:nth-child(odd):before,
+  .timeline ul li:nth-child(even)::before
+  {
+      top: 50px;
+      left: -3px;
+  }
+  .timeline ul li:nth-child(odd) .time,
+  .timeline ul li:nth-child(even) .time
+  {
+      border-radius: 5px;
+      box-shadow: 0 0 0 0;
+      top: 4px;
+      right: inherit;
+      left: 0%;
+      margin-left: 30px;
+  }
+  .box-left::after
+  {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #fff;
+    position: absolute;
+    top: 5%;
+    right: 100%;
+    left: inherit;
+
+  }
+  .box-right::after
+  {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #fff;
+    position: absolute;
+    top: 5%;
+    right: 100%;
+  }
+
+
+  .box .imgBx:nth-child(even),
+  .box .imgBx:nth-child(odd)
+  {
+    width: 100%;
+    height: auto;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2px;
+    top: 0px;
+  }
+
+  .box .imgBx img
+  {
+    height: inherit;
+  }
+  .box
+  {
+
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+  .box > .imgBx {order: 1;}
+  .box > .content{order: 2;}
+
+} */
+/* @media(max-width: 767px)
+{
+    h1
+    {
+        text-align: center;
+        font-size: 40px;
+        padding: 0 20px;
+    }
+    .timeline
+    {
+        width: 100%;
+        padding-bottom: 0px;
+    }
+    .timeline:before
+    {
+        left: 20px;
+    }
+    .timeline ul li:nth-child(odd),
+    .timeline ul li:nth-child(even)
+    {
+        width: 100%;
+        text-align: left;
+        padding-left: 50px;
+        padding-bottom: 50px;
+    }
+    .timeline ul li:nth-child(odd):before,
+    .timeline ul li:nth-child(even)::before
+    {
+        top: -18px;
+        left: 16px;
+    }
+    .timeline ul li:nth-child(odd) .time,
+    .timeline ul li:nth-child(even) .time
+    {
+        top: -30px;
+        left: 50px;
+        right: inherit;
+    }
+
+
+
+} */
